@@ -4293,3 +4293,194 @@ section.section {
   -webkit-transform: translate3d(0, -50%, 0);
   transform: translate3d(0, -50%, 0);
 }
+
+#pricing {
+  text-align: center;
+  padding: 60px 0;
+  background-color: #202020;
+}
+
+.pricing-table {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.pricing-option {
+  background-color: #171717;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 30px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.pricing-option:hover {
+  transform: translateY(-10px);
+}
+
+.pricing-option h3 {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+}
+
+.pricing-option p {
+  font-size: 1.2em;
+  color: #fdbb22;
+  margin-bottom: 20px;
+}
+
+.pricing-option ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 30px 0;
+}
+
+.pricing-option ul li {
+  font-size: 1em;
+  color: #666;
+  margin: 10px 0;
+}
+
+.pricing-option button {
+  background-color: #f2bb3d;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.pricing-option button:hover {
+  background-color: #fbff00;
+}
+
+/* Offer Page */
+
+/* General Section Styles */
+.section {
+  padding: 60px 0;
+}
+
+/* Hero Section Styles */
+.hero-section {
+  background: url(images/hero-bg.jpg) no-repeat center center;
+  background-size: cover;
+  position: relative;
+  padding: 100px 0;
+  color: #ffffff;
+  text-align: center;
+}
+
+.hero-section .hero-heading {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.hero-section .hero-subheading {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+/* Offer Details Section */
+.offer-details {
+  padding: 60px 0;
+}
+
+.offer-details .offer-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.offer-details .offer-description {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+
+/* How It Works Section */
+.how-it-works {
+  padding: 60px 0;
+}
+
+.how-it-works .step {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.how-it-works .step-number {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.how-it-works .step-description {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* Testimonials Section */
+.testimonials {
+  padding: 60px 0;
+}
+
+.testimonials .testimonial {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.testimonials .testimonial-text {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.testimonials .testimonial-author {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Final Call to Action Section */
+.final-cta {
+  padding: 60px 0;
+  text-align: center;
+}
+
+.final-cta .cta-button {
+  font-size: 18px;
+  padding: 15px 30px;
+  background-color: #f2bb3d;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.final-cta .cta-button:hover {
+  background-color: #f2bb3d;
+}
+
+/* Contact Us Section */
+.contact-us {
+  padding: 60px 0;
+}
+
+.contact-us .contact-heading {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.contact-us .contact-details {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+
